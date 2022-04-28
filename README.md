@@ -1,7 +1,12 @@
 Test web server
 ===
 
-Implemeted toy webserver with hand written thread pool and channels
+Implemeted toy webserver with hand written thread pool and channels.
+
+Execution of 4 job concurrently with clean exit on ctrl-c:
+
+![](media/example.png)
+
 
 links:
 

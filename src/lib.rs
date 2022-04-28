@@ -4,7 +4,7 @@ use std::path::Path;
 use std::sync::{mpsc, Arc, Mutex};
 use std::thread;
 use std::time::Duration;
-use std::{fmt, fs};
+use std::{fs};
 
 pub fn handle_connection(mut stream: TcpStream) {
     let mut buffer = [0; 1024];
